@@ -42,7 +42,8 @@ public class ProductApp {
                         for(Product products: ProductArray){
                            if(products.getProductId().equals(checkIdUpdate)){
                                 continue;
-                            }else break;
+                            }else
+                               System.out.println("Id not in Use");break;
 
                     }
 
