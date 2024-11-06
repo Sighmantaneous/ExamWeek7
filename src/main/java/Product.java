@@ -52,6 +52,6 @@ public class Product {
 
     @Override
     public String toString(){
-        return ( "Product details are:"+ "Id = "+productId+" name= "+name+" " );
+        return ( "Product details are:"+ "Id = "+productId+" name= "+name+" price = "+ price+ " quantity = "+quantity );
     }
 }
